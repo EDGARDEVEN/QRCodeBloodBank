@@ -1,5 +1,5 @@
 # Blood Bank Management System
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+![developer](https://img.shields.io/badge/Developed%20By%20%3A-EDGAR%20DEVEN-red)
 ---
 ## Screenshots
 ### Homepage
@@ -50,7 +50,7 @@ py manage.py createsuperuser
 - Create account (No Approval Required By Admin, Can Login After Signup)
 - After Login, Can see number of blood request Made, Approved, Pending, Rejected by Admin on their dashboard.
 - Patient can request for blood of specific blood group and unit from blood stock.
-- Patient can see their blood request history with status (Pending, Approved, Rejected).
+- Patient can see their blood request history with status (Pending, Approved, Rejected) via a Generated QR Code by the system.
 
 ---
 
@@ -58,6 +58,9 @@ py manage.py createsuperuser
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
 - Download This Project Zip Folder and Extract it
 - Move to project folder in Terminal. Then run following Commands :
+
+```
+source .venv/bin/activate
 
 ```
 python -m pip install -r requirements. txt
@@ -75,6 +78,5 @@ http://127.0.0.1:8000/
 
 
 ## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+Any suggestion and feedback is welcome. You can message me on email:
+edgardeven303@gmail.com
